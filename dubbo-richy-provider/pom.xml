@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.richy.dubbo</groupId>
+    <artifactId>dubbo-richy-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>dubbo-richy-provider</artifactId>
+  <dependencies>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-aop</artifactId>
+  			<version>4.3.16.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-beans</artifactId>
+  			<version>4.3.16.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-context</artifactId>
+  			<version>4.3.16.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-context-support</artifactId>
+  			<version>4.3.16.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-core</artifactId>
+  			<version>4.3.16.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-expression</artifactId>
+  			<version>4.3.16.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-web</artifactId>
+  			<version>4.3.16.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-webmvc</artifactId>
+  			<version>4.3.16.RELEASE</version>
+  		</dependency>
+  		<!-- dubbo2.6版本以后使用curator作为zookeeper的客户端 -->
+		<dependency>
+		    <groupId>org.apache.curator</groupId>
+		    <artifactId>curator-framework</artifactId>
+		    <version>2.12.0</version>
+		</dependency>
+  		
+		<!-- https://mvnrepository.com/artifact/com.alibaba/dubbo -->
+		<dependency>
+		    <groupId>com.alibaba</groupId>
+		    <artifactId>dubbo</artifactId>
+		    <version>2.6.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.richy.dubbo</groupId>
+			<artifactId>dubbo-richy-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+  </dependencies>
+</project>
